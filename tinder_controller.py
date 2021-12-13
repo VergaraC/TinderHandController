@@ -9,19 +9,19 @@ def dislike():
     print("dislike")
 
 def superlike():
-    pyautogui.keyUp('enter')
+    pyautogui.press('enter')
     print("superlike")
 
 def next_image():
-    pyautogui.keyUp('space')
+    pyautogui.press('space')
     print("next image")
 
 def open_profile():
-    pyautogui.keyUp('up')
+    pyautogui.press('up')
     print("open profile")
 
 def close_profile():
-    pyautogui.keyUp('down')
+    pyautogui.press('down')
     print("close profile")
 def scroll_up(profileStatus):
     if profileStatus == 0:
@@ -41,4 +41,4 @@ def scroll_down(profileStatus):
 
 def close_window():
     print("close window")
-    pyautogui.keyUp('esc')
+    pyautogui.press('esc')
